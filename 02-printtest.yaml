@@ -1,0 +1,3 @@
+  - name: print playbook
+    ansible.builtin.debug:
+      msg: "hello edison"
