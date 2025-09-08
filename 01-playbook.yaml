@@ -3,3 +3,9 @@
   tasks: # list of task
   - name: ping the server
     ansible.builtin.ping:
+    
+  - name: print date, user, hostname
+    ansible.builtin.shell: |
+      date
+      whoami
+      hostname
